@@ -23,3 +23,8 @@ and code
 
 <img width="1851" height="909" alt="Screenshot 2025-12-29 202303" src="https://github.com/user-attachments/assets/e49ee1f7-55f3-4821-9e82-4df511c99c70" />
 
+and my bad 3d model
+
+
+
+<img width="769" height="538" alt="Screenshot 2025-12-30 144151" src="https://github.com/user-attachments/assets/8f89e164-27c0-4a10-9e60-fe494b9e4e29" />

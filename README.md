@@ -21,6 +21,7 @@ the updated code
 <img width="1522" height="849" alt="image" src="https://github.com/user-attachments/assets/a6d5adac-f3cb-4dad-8e0f-1d5c2faa8cad" />
 
 and the updated BOM
+
 <img width="367" height="185" alt="image" src="https://github.com/user-attachments/assets/aacdf079-9966-4676-a3cf-b0f4551360e3" />
 
 

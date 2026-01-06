@@ -1,57 +1,49 @@
 #include <LedControl.h>
 
 
-LedControl lc = LedControl(11, 13, 10, 1);
+#define DIN 11
+#define CLK 13
+#define CS  10
+#define HALL_PIN A0
+#define POT_PIN  A1
 
+LedControl lc = LedControl(DIN, CLK, CS, 1);
 
-const int hallPin = A0;
-const int potPin  = A1;
-
-
-int baseline = 512;
+int centerValue = 512;
 
 void setup() {
-  
   lc.shutdown(0, false);
-  lc.setIntensity(0, 8);     
+  lc.setIntensity(0, 8);
   lc.clearDisplay(0);
 
   
-  delay(500);
-
-  
-  baseline = analogRead(hallPin);
+  long sum = 0;
+  for (int i = 0; i < 100; i++) {
+    sum += analogRead(HALL_PIN);
+    delay(5);
+  }
+  centerValue = sum / 100;
 }
-
 void loop() {
-  int hallValue = analogRead(hallPin);
-  int sensitivity = analogRead(potPin);
-
-  
-  int delta = hallValue - baseline;
-
-  
-  int maxRange = map(sensitivity, 0, 1023, 20, 200);
-
-  
-  int level = map(abs(delta), 0, maxRange, 0, 4);
-  level = constrain(level, 0, 4);
-
-  
+  int hallRaw = analogRead(HALL_PIN);
+  int diff = hallRaw - centerValue;
+  int potValue = analogRead(POT_PIN);
+  int sensitivity = map(potValue, 0, 1023, 10, 200);
   lc.clearDisplay(0);
+  lc.setLed(0, 4, 4, true);
+  int strength = constrain(abs(diff), 0, sensitivity);
+  int height = map(strength, 0, sensitivity, 0, 8);
 
-  
-  if (delta > 0) {
-    
-    for (int i = 0; i < level; i++) {
-      lc.setRow(0, 3 - i, B00111000);
-    }
-  } else if (delta < 0) {
-    
-    for (int i = 0; i < level; i++) {
-      lc.setRow(0, 4 + i, B00111000);
-    }
+  int column;
+  if (diff > 0) {
+    column = 5;   
+  } else {
+    column = 2;   
   }
 
-  delay(60);  
+  for (int row = 7; row >= 8 - height; row--) {
+    lc.setLed(0, row, column, true);
+  }
+
+  delay(40);
 }

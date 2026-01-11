@@ -27,4 +27,24 @@ and the updated BOM
 
 <img width="362" height="208" alt="Screenshot 2026-01-11 172630" src="https://github.com/user-attachments/assets/8246bced-6a39-42c1-92d9-44255df2bfb6" />
 
+and some more pictures
+
+
+<img width="400" height="533" alt="image" src="https://github.com/user-attachments/assets/fc84c94e-6b73-402b-8de2-4d98a8201e23" />
+
+<img width="400" height="533" alt="image" src="https://github.com/user-attachments/assets/ce15cf65-92c7-48cb-a780-43c3c96ad1f6" />
+
+<img width="400" height="533" alt="image" src="https://github.com/user-attachments/assets/72845c4f-4486-453c-80bf-f62ad55b2612" />
+
+cant upload the video its too big 💔
+
+
+
+
+
+
+
+
+
+
 

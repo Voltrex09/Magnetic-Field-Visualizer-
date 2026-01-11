@@ -22,6 +22,7 @@ the updated code
 
 and the updated BOM
 
-<img width="367" height="185" alt="image" src="https://github.com/user-attachments/assets/aacdf079-9966-4676-a3cf-b0f4551360e3" />
 
+
+<img width="408" height="227" alt="Screenshot 2026-01-11 171059" src="https://github.com/user-attachments/assets/389f7bfc-96a1-49a7-a9a6-544cb4b3c298" />
 

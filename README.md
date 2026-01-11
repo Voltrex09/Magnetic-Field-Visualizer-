@@ -18,7 +18,8 @@ I actually came up with this project while i was on the subway watching a verita
 <img width="769" height="538" alt="Screenshot 2025-12-30 144151" src="https://github.com/user-attachments/assets/8f89e164-27c0-4a10-9e60-fe494b9e4e29" />
 
 the updated code 
-<img width="1522" height="849" alt="image" src="https://github.com/user-attachments/assets/a6d5adac-f3cb-4dad-8e0f-1d5c2faa8cad" />
+
+<img width="1549" height="865" alt="Screenshot 2026-01-11 171147" src="https://github.com/user-attachments/assets/b920e622-6560-46d0-ac48-750f36acada0" />
 
 and the updated BOM
 

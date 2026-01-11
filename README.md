@@ -25,5 +25,6 @@ and the updated BOM
 
 
 
-<img width="408" height="227" alt="Screenshot 2026-01-11 171059" src="https://github.com/user-attachments/assets/389f7bfc-96a1-49a7-a9a6-544cb4b3c298" />
+<img width="362" height="208" alt="Screenshot 2026-01-11 172630" src="https://github.com/user-attachments/assets/8246bced-6a39-42c1-92d9-44255df2bfb6" />
+
 

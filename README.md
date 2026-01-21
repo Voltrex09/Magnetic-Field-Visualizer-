@@ -5,7 +5,7 @@ I actually came up with this project while i was on the subway watching a verita
 
 
 
-
+⚠️PLEASE NOTE THAT THE TOOL NEEDS A STONGER MAGNET TO WORK PROPERLY AND DETECT MAGNETIC FIELDS FROM A BIGGER DISTANCE⚠️
 
 
 

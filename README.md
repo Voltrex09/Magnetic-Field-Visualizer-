@@ -39,6 +39,14 @@ and some more pictures
 cant upload the video its too big 💔
 
 
+<img width="400" height="533" alt="image" src="https://github.com/user-attachments/assets/4fb36bc1-7afc-4cc2-9033-8f9b8f299f52" />
+
+
+
+<img width="400" height="533" alt="image" src="https://github.com/user-attachments/assets/3a5ae0af-181f-4a92-8203-1f8817e3fe46" />
+
+
+
 
 
 
